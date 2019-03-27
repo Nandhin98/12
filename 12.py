@@ -1,0 +1,21 @@
+def max3():
+          	 n=int(input())
+             	p=int(input())
+            	q=int(input())
+            	r=int(input())
+                            	l=[]
+           	max=-1
+             	for i in range(n):
+	             	l.append(int(input()))
+           	l.sort()
+           	for i in range(n):
+        sum=(p*l[i])+(q*l[j])+(r*l[k])
+           
+		               		max=sum
+	                     print(sum)
+  
+               try:
+                                   max3()
+         except:
+                        print('invalid')
+    
